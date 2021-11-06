@@ -21,3 +21,4 @@
     - name: Print variable from inventory/host file
       debug:
         msg: URL: {{URL4}}
+...
