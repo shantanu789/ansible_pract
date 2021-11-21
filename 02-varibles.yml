@@ -2,7 +2,8 @@
 - name: Demo on variables
   hosts: all
   ##declaring variable on Play-level
-  vars: URL1: play.google.com
+  vars:
+    URL1: play.google.com
   vars_files:
     - vars_file
   tasks:
