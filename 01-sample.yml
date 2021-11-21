@@ -1,5 +1,5 @@
 ---
-- name: Play to check hosts
+- name: Play to check hosts and check priority of tasks b/w Roles and Play-level
   hosts: all
   tasks:
     - name: Print hello world from play-level
