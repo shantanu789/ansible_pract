@@ -14,7 +14,8 @@
       debug:
         msg: URL = "{{ URL2 }}"
     - name: Print variable on task level
-      vars: URL3: tasks.google.com
+      vars:
+        URL3: tasks.google.com
       debug:
         msg: URL = "{{ URL3 }}"
 
