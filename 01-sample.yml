@@ -2,7 +2,7 @@
 - name: Play to check hosts
   hosts: all
   tasks:
-    - name: Print hello world
+    - name: Print hello world from play-level
       debug:
         msg: "Hello World!"
   roles:
