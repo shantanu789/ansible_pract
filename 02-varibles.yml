@@ -5,7 +5,7 @@
   vars:
     URL1: play.google.com
   vars_files:
-    - vars_file
+    - vars_file.yml
   tasks:
     - name: Print variable on Play level
       debug:
