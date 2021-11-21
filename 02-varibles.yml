@@ -3,7 +3,7 @@
   hosts: all
   ##declaring variable on Play-level
   vars:
-    URL1: play.google.com
+    - URL1: play.google.com
   vars_files:
     - vars_file
   tasks:
